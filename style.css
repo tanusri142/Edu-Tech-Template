@@ -1,0 +1,284 @@
+html,
+body {
+  /*height: 100%;*/
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/*main {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  flex: auto;
+}*/
+
+/*header,
+footer {
+  flex: none;
+}
+*/
+
+/*header*/
+
+header {
+  height: 150px;
+}
+
+main {
+  height: 292rem;
+}
+
+.coursify {
+  font-size: 25px;
+  color: #3c73a8;
+  font-weight: bold;
+  margin-left: 40px;
+  padding-top: 20px;
+  float: left;
+  padding-right: 32rem;
+}
+
+.navmenu {
+  /*margin-right: 20px;*/
+  padding-top: 20px;
+}
+
+ul.navmenu li {
+  list-style-type: none;
+  display: inline;
+  text-align: right;
+  padding-right: 20px;
+  cursor: pointer;
+  /*transition: all 0.3s ease 0s;*/
+  font-weight: bold;
+}
+
+ul.navmenu li:hover {
+  /*transform: translateY(-4px);*/
+  color: #d80000;
+}
+
+/*side panel*/
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  color:#d80000;
+}
+
+
+
+/*main*/
+
+.clarify {
+  padding-left: 15px;
+  /*margin-bottom: -6px;*/
+  padding-bottom: 50px;
+}
+
+.main-left {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+
+.ask-button {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.video {
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  /*border: 1px solid black;*/
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 60px;
+  color: #d80000;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 60px;
+  color: #d80000;
+}
+
+#carouselExampleIndicatorsDots {
+  padding-bottom: 50px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 30px;
+  color: #3c73a8;
+  padding-top: 30px;
+}
+
+.entrance-exams {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.ask-button-exams {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.btn-squared-default-plain {
+  width: 100px !important;
+  height: 100px !important;
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.btn-squared-default-plain:hover {
+  border: 0px solid white;
+}
+
+#gif {
+  background: url("images/study.gif");
+}
+
+.main-clarify {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.heading {
+  font-weight: 60px;
+}
+
+.sub-text {
+  color: gray;
+}
+
+.image-button {
+  background-image: url("images/book1.jpg");
+  background-size: 100%;
+}
+
+.books {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.free-class {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 300px;
+}
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+    font-weight: bold;
+}
+
+/*footer*/
+
+footer {
+  padding-top: 15px;
+  /*position: absolute;*/
+  padding-bottom: 15px;
+  /*position: fixed;*/
+}
+
+.download {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 300px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: white;
+  background-color: #d80000;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #3c73a8;
+  color: #fff;
+  transform: translateY(-7px);
+}
